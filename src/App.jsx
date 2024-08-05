@@ -10,6 +10,7 @@ function App() {
   return (
     <Router>
     <Header />
+    <Home />
     <Routes>
       <Route exact path="/" component={Home} />
       <Route path="/signup" component={SignUp} />
