@@ -9,7 +9,7 @@ const Footer = () => (
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
     
         <div>
-          <img src="/AskGpt.png" alt="Logo" className="h-12 w-auto mb-4" />
+          <img src="/AskGpt.png" alt="Logo" className="h-16 w-auto md:h-32 md:w-32 mb-4" />
           <p className="text-sm">
             Revolutionizing medical diagnostics with AI and knowledge graphs.
           </p>

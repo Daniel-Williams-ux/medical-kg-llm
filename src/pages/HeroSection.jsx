@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 const HeroSection = () => (
   <section className="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8">
@@ -9,9 +11,9 @@ const HeroSection = () => (
       <p className="mt-4 text-lg sm:text-xl text-gray-600">
         Accurate diagnostics at your fingertips
       </p>
-      <a href="/signup" className="mt-8 inline-block bg-indigo-600 text-white py-3 px-6 rounded-md text-lg font-medium hover:bg-indigo-700">
+      <Link to="/signup" className="mt-8 inline-block bg-indigo-600 text-white py-3 px-6 rounded-md text-lg font-medium hover:bg-indigo-700">
         Get Started
-      </a>
+      </Link>
       
     </div>
   </section>
